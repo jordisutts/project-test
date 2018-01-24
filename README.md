@@ -1,26 +1,41 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+# This is my first Markdown file 
+###### it doesnt mean much
 
+Paragraphs stay the same, no need for any p tags or page breaks as it automatically is read as a paragraph.
 
-Hi there! Welcome to Cloud9 IDE!
+## This is a subheading
 
-To get you started, we included a small hello world application.
+I used semantic ` <section>` tags instead of `<divs>`
 
-1) Open the hello-world.html file
+```javascript
+function multiplication(a,b);
+if (typeof(a) == "number" && typeof(b) == "number") {
+    return (a*b);
+}
+```
+This is where any other interesting info may be written, but it may not.
 
-2) Click on the Preview button to open a live preview pane
+### this is another smaller heading
 
-3) Make some changes to the file, save, watch the preview, and have fun!
+*this is italic text*
 
-Happy coding!
-The Cloud9 IDE team
+**this is bold text**
 
+**_this should be italic bold_**
 
-## Support & Documentation
+### links and lists
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+if you want to create a link, then [here is a link to google](https://www.google.com)
+
+* this is an unordered list item
+* so is this
+* and this
+
+1. this is an ordered list
+2. this will be numbered
+3. so will this
+    3.this is a subpoint
+    4. as is this
+
+as ghandi said:
+>Bitches be trippin'
